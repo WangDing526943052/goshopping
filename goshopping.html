@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mycss.css"/>
+	</head>
+	<body>
+		<img src="images/t1ldiffkjfxxxzhxzd-101-101.png" class="gw"/>
+		<img src="images/next.png" class="next"/>
+		<div id="fullpage">
+		    <div class="section section1">
+		    	<img src="images/t1wsqsfgnaxxxmjxp6-470-50.png" class="rqq rqq1"/>
+		    	<img src="images/t1iakufbxxxxctz4tl-824-274.png" class="tong"/>
+		    	<img src="images/t1xccqfflgxxxild.png" class="sofa1 sofa"/>
+		    	
+		    </div>
+		    <div class="section section2">
+		    	<p><b>琳琅满目的宝贝</b>,总有一款让你如见初恋</p>
+		    	<div class="box">
+		    		<img src="images/goods-441-218.png" class="qbsofa"/><!--中间全部沙发-->
+		    		
+		    		<div class="box2 move">
+		    			<img src="images/search.png" class="ssk"/><!--搜索框-->
+		    			<img src="images/search-words.png" class="sofa2"/> <!--沙发文字-->
+		    		</div>
+		    		<img src="images/search-02-1.png" class="sofa3"/><!--文字带搜索框-->
+		    		<div class="whiteBox move"></div>
+		    		<div class="box3"><img src="images/shirt-02-207-166.png" class="sofa4"/></div>
+		    	</div>
+		    	
+		    </div>
+		    <div class="section section3">
+		    	<div class="box3">
+		    		<img src="images/img-01-a.gif" class="chicun1"/>
+		    		<img src="images/img-01.gif" class="chicun"/>
+		    	</div>
+		    	<div class="gwcBox">
+		    		<img src="images/btn-01.gif" class="gwc"/>
+		    		<img src="images/btn-01-a.gif" class="gwc1"/>
+		    	</div>
+		    		<img src="images/t1f.png" class="xiesofa01"/>	
+		    </div>
+    		<div class="section section4">
+    			<img src="images/words-04-a.png" class="xhjs"/>
+    			<div class="box5 move">
+    				<img src="images/t1.png" class="dn"/>
+    				<div class="box4 move" >
+    					<p><font>请输入地址</font>：西安市</p>
+    					<p><font>收件人</font>：*****</p>
+    				</div>
+    			</div>	
+	    			<img src="images/cloud.png" class="cloud1"/>
+	    			<img src="images/cloud-06.png" class="cloud2"/>
+	    			<div class="carbox move">
+	    				<img src="images/car.png" class="car"/>
+    			   		<img src="images/t1f.png" class="xiesofa02"/>
+	    			</div>
+	    			<img src="images/t1f.png" class="xiesofa03"/>
+    		</div>
+    		<div class="section section5">
+    			<img src="images/words-05.png" class="wenzi"/>
+    			<div class="kabox">
+    				<img src="images/card-05.png" class="card"/>
+    				<img src="images/order-05.png" class="order"/>
+    				<img src="images/t1f.png" class="xiesofa04"/>
+    			</div>
+    			<div class="mousebox">
+    				<img src="images/mouse-05.png" class="mouse1"/>
+    				<img src="images/mouse-05-a.png" class="mouse2"/>
+    				<img src="images/hand-05.png" class="hand1"/>
+    			</div>
+    		</div>
+    		<div class="section section6">
+    			<div class="bigbox move">	
+    			<img src="images/t1dvj.fn0gxxb0_fua-2500-600.png"/>
+    			</div>	
+    			<img src="images/box.png" class="boxx"/>   			
+    			<div class="car-sofa">
+    				<img src="images/car-06.png" class="kdcar"/>
+    				<img src="images/88.png" class="zunyi"/>
+    				<img src="images/t1lg0.png" class="biaozhi"/>
+    			</div>	
+    			<img src="images/cloud.png" class="cloud3"/>
+    			<img src="images/women.png" class="women"/>
+    			<img src="images/man.png" class="man"/>
+    			<img src="images/door.png" class="door"/>
+    			<img src="images/t1kzyqffnexxbcrepj-139-173.png" class="qsh"/>
+    		</div>
+    		<div class="section section7">
+    			<div class="starbox move">
+    				<img src="images/star.png" class="star"/>
+    			</div>
+    			<img src="images/good-07.png" class="hp"/>
+    		</div>
+    		<div class="section section8">
+    			<img src="images/btn-08.png" class="ksgw1"/>
+    			<img src="images/btn-08-a.gif" class="ksgw2"/>
+    			<img src="images/again.png" class="zlyc"/>
+    			<img src="images/hand-08.png" class="hand2"/>
+    		</div>
+		</div>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.fullPage.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+    			$('#fullpage').fullpage({
+    				navigation:true,
+    				afterLoad:function(anchorLink,index){
+    						$(".next").mousedown(function(){
+    							$.fn.fullpage.moveSectionDown()
+    						})
+    					if(index == 2){
+//							$(".ssk").animate({left:'250px'},0,function(){
+//								$(".sofa2").show(500).animate({left:'370px'},0,function(){
+//									
+//									$(".sofa3").show(2000).animate({
+//										left:'405px',
+//										top:'27px',
+//										width:"170px",
+//										height:'35px'
+//									},2000)
+//									$(".qbsofa").show(3000);
+//								}).show(1000,function(){
+//									$(".box2").hide(2000);
+//								})
+//							})
+//							$(".section2 p").css("color","white")
+//  					}	
+						$(".ssk").show(0);
+						$(".ssk").animate({left:'250px'},1000,function(){
+							$(".sofa2").animate({left:'370px'},200,function(){
+								$(".box2").hide(0,function(){
+								$(".sofa3").show().animate({left:'405px',
+												 top:'27px',
+												 width:'170px',
+												 height:'35px'
+								},1000)
+									$(".qbsofa").show(500);
+								});
+								$(".section2 p").css("color","white")
+							});
+						});
+						
+					}
+    				if(index == 8){
+						$(".section8").mousemove(function(e){
+							if(e.pageY>317){
+								$(".hand2").css({"left":e.pageX,"top":(e.pageY+30)})
+								$(".ksgw1").click(function(){
+									$(".ksgw1").hide();
+									$(".ksgw2").show();
+								})	
+							}
+								
+						})
+						$(".zlyc").click(function(e){
+							$.fn.fullpage.moveTo(1);
+							$("img,.move").attr("style","");
+						})
+					}
+    				
+    			},
+    			onLeave:function(index,nextIndex,direction){
+					if(index == 2 && nextIndex == 3 ){
+						$(".whiteBox").show();
+						$(".box3>.sofa4").show().animate({top:'866px',
+						left:'110px',
+						width:'207px',
+						height:'166px'},1000,function(){
+							$(".chicun").hide(0,function(){
+							$(".chicun1").show(0,function(){
+								$(".gwc").hide(0,function(){
+									$(".gwc1").show()
+										})
+									})
+								})
+							})
+						}
+					if(index == 3 && nextIndex == 4){
+						$(".sofa4").hide();
+						$(".xiesofa01").show().animate({top:"1121px",left:"653px"},1000,function(){
+							$(".xiesofa01").hide(0,function(){
+								$(".xiesofa02").show(0,function(){
+									$(".carbox").animate({ left: [1700, 'easeInElastic']},2000,function(){
+										$(".box5").show();
+									})
+								});
+							})
+						});
+						
+					}
+					if(index == 4 && nextIndex == 5){
+						$(".hand1").animate({bottom:"-6px"},1000,function(){
+							$("mouse1").hide();
+							$("mouse2").show();
+							$(".xiesofa03").show();
+						$(".order").animate({top:"75px"},1000)
+						$(".xiesofa03").animate({bottom:"-762px"},500,function(){
+							$(".wenzi").show().addClass("wenzi1")
+						});
+						})
+					}
+					if(index == 5 && nextIndex == 6){
+						$(".xiesofa03").hide();
+						$(".xiesofa04").show();
+						$(".xiesofa04").animate({top:"1120px",left:"158px",width:"70px",height:"85px"},2000
+						,function(){
+							$(".xiesofa04").hide();
+							$(".boxx").animate({top:"650px",left:"710px"},1500,function(){
+								$(".bigbox").animate({left:"-850px"},1000,function(){
+									$(".man").show();
+									$(".man").animate({width:"252px",height:"305px",left:"950px",top:"342px"},2000,function(){
+											$(".door").show(0,function(){
+											$(".women").show();
+											$(".women").animate({width:"87px",
+																height:"294px",
+																top:"353px",
+																left:"1270"},1000,function(){
+												$(".qsh").show();
+											})
+										})
+									})	
+								})
+							})
+						})
+						
+					}
+					if(index == 6 && nextIndex == 7){
+						$(".starbox").animate({width:"122px"},2000,function(){
+							$(".hp").show();
+						})
+					}
+					
+    				}
+    			})
+			})
+		</script>
+	</body>
+</html>

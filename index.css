@@ -1,0 +1,121 @@
+/*修改导航小圆点的代码*/
+/*#fp-nav ul li a.active span{
+	background-color: red !important;
+}*/
+.zjgw{
+	position: fixed;
+	right: 6%;
+	bottom: 85%;
+	z-index: 999;
+}
+/*第一屏样式start*/
+.section1{
+	background: #fadd67 url(../images/t1fpyqfltdxxaiulhh-990-600.png) no-repeat center bottom;
+}
+.rqq{
+	position: absolute;
+	bottom: 80%;
+	right: 20%;
+}
+.rqq2{
+	animation: fly 4s infinite;
+}
+.tong{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 20%;
+}
+.sofa01{
+	position: absolute;
+	left: 35%;
+	bottom: 45%;
+}
+.sofa001{
+	animation: flysofa 3s infinite;
+}
+/*第一屏样式end*/
+
+/*第二瓶样式start*/
+.section2{
+	z-index: 2;
+	background:#84a2d4 url(../images/t1zdgpfi8exxca6rfn-2000-600.png) no-repeat center bottom;
+}
+.fugaihe{
+	height: 500px;
+	width: 800px;
+	
+	position: absolute;
+	left: 30%;
+	bottom: 0;
+}
+.seach01{
+	width: 222px;
+	height: 45px;
+	background: url(../images/search.png);
+	position: absolute;
+	right: 0;
+	bottom: 60%;
+}
+.search-words{
+	position: absolute;
+	right: 30px;
+	bottom: 20%;
+}
+.sofa02{
+	height: 50px;
+	position: absolute;
+	bottom: 40%;
+	right: 36%;
+	display: none;
+}
+.search-sofa{
+	width: 222px;
+	height: 45px;
+	position: absolute;
+	right: 350px;
+	bottom: 60%;
+	display: none;
+}
+.sofa002,.cover{
+	height: 90px;
+	width: 105px;
+	position: absolute;
+	bottom: 65%;
+	left: 23%;
+	
+}
+.cover{
+	background-color: white;
+	display: none;
+}
+/*第二屏样式end*/
+.section3{
+	background-color: ;
+}
+.section4{
+	background-color: ;
+}
+
+
+/*动画部分*/
+@keyframes fly{
+	0{
+		bottom: 80%
+	}
+	50%{
+		bottom: 88%;
+	}
+	100%{
+		bottom: 80%
+	}
+}
+@keyframes flysofa{
+
+	50%{
+		bottom: 47%;
+	}
+	100%{
+		bottom: 45%
+	}
+}

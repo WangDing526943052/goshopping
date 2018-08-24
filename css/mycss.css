@@ -1,0 +1,401 @@
+/*第一屏start*/
+font {
+	color: white;
+}
+.next {
+	position: fixed;
+	bottom: 10%;
+	right: 5%;
+	z-index: 888;
+}
+.gw {
+	position: fixed;
+	right: 5%;
+	top: 10%;
+	z-index: 9999;
+}
+.section1 {
+	background: #f9dd67 url(../images/t1fpyqfltdxxaiulhh-990-600.png) no-repeat center bottom;
+}
+.rqq {
+	position: absolute;
+	bottom: 85%;
+	right: 15%;
+}
+.rqq1 {
+	animation: flyrqq 2s infinite;
+}
+.tong {
+	position: absolute;
+	bottom: 25%;
+	left: 24%;
+}
+.sofa1 {
+	position: absolute;
+	bottom: 45%;
+	left: 39%;
+}
+.sofa {
+	animation:flysofa 3s infinite ;
+}
+@keyframes flyrqq{
+	50%{
+		bottom: 90%;
+	}
+	100%{
+		bottom: 85%;
+	}
+}
+@keyframes flysofa{
+	50%{
+		bottom: 48%;
+	}
+	100%{
+		bottom: 45%;
+	}
+}
+/*第一屏end*/
+/*第二屏start*/
+.section2 {
+	background: #84a2d4 url(../images/t1zdgpfi8exxca6rfn-2000-600.png) no-repeat center bottom;
+	z-index: 5;
+}
+.box {
+	width:1000px;
+	height: 400px;
+	position: relative;
+	top: 40px;
+	left: 450px;
+	/*border: 1px solid red;*/
+	/*display: none;*/
+}
+.section2  p {
+	text-align: center;
+	font-size: 20px;
+}
+.ssk {
+	position: absolute;
+	top: 150px;
+	left: 650px;
+	display: none;
+}
+.sofa2 {
+	position: absolute;
+	top:150px;
+	left: 900px; 
+	display: none;
+
+}
+.sofa3 {
+	position: absolute;
+	top:149px;
+	left: 250px;
+	display: none;
+}
+.qbsofa {
+	position: absolute;
+	top: 80px;
+	left: 130px;
+	display: none;
+}
+.whiteBox {
+	width: 110px;
+	height:105px;
+	background: white;
+	position: absolute;
+	top: 80px;
+	left:240px;
+	display: none;
+}
+.sofa4 {
+	width:110px;
+	height: 105px;
+	position: absolute;
+	top: 80px;
+	left:240px;
+	display: none;
+}
+/*第二屏end*/
+
+/*第三屏start*/
+.section3 {
+	background:#ef674d url(../images/main.png) no-repeat center bottom;
+	z-index: 4;
+}
+.chicun,.chicun1 {
+	position: absolute;
+	top: 450px;
+	left: 850px;
+}
+.chicun1 {
+	display: none;
+}
+.gwc,.gwc1 {
+	width: 218px;
+	height: 58px;
+	position: absolute;
+	top: 620px;
+	left: 850px;
+}
+.gwc1 {
+	display: none;
+}
+.xiesofa01 {
+	position: absolute;
+	top:353px;
+	left:562px;
+	display: none;
+}
+/*第三屏end*/
+
+/*第四屏start*/
+.section4 {
+	background:#ffeedd url(../images/t1iresfnxaxxca6rfn-2000-600.png) no-repeat center bottom;
+}
+.xhjs {
+	position: absolute;
+	top: 250px;
+	left: 600px;
+}
+.dn {
+	position: absolute;
+	top:300px;
+	left: 40%;
+	opacity: 1;
+}
+.box4 {
+	width: 250;
+	height: 35px;
+	position: absolute;
+	top:330px;
+	left: 42%;
+}
+.box5 {
+	display: none;
+}
+.cloud1{
+	position: absolute;
+	top: 150px;
+	left: 0;
+	animation: cloudrun 15s infinite;
+}
+.cloud2{
+	position: absolute;
+	top: 150px;
+	left: 950px;
+	animation: cloudrun1 15s infinite;
+}
+@keyframes cloudrun{
+	50%{left: 300px;}
+	100%{left:0px}
+}
+@keyframes cloudrun1{
+	50%{left: 1200px;}
+	100%{left:950px}
+}
+.carbox {
+	width: 407px;
+	height: 600px;
+	position: relative;
+	top: 276px;
+	left: 450px;
+	/*border: 1px solid red;*/
+}
+.car {
+	position: absolute;
+	left: 50px;
+	top:40px;
+	z-index: 5;
+}
+.xiesofa02 {
+	position: absolute;
+	left: 202px;
+	top:2px;
+	display: none;	
+}
+.xiesofa03{
+	position: absolute;
+	bottom: -174px;
+	left: 366px;
+	display: none;
+	z-index: 3;
+}
+/*第四屏end*/
+/*第五屏start*/
+.section5 {
+	background: url(../images/t1yisqfa4exxa3gmkg-2000-1500.png) center bottom;
+}
+.wenzi {
+	position: absolute;
+	top: 50px;
+	left:214px;	
+	display: none;
+}
+.wenzi1{
+	animation: xuanzhuan 2s;
+}
+@keyframes xuanzhuan{
+	100%{transform: rotateY(360deg)}
+}
+.kabox {
+	width: 420px;
+	height: 450px;
+	position: relative;
+	top: 200px;
+	left:230px ;
+}
+.card {
+	position: absolute;
+	top: 200px;
+	left: 50px;
+	z-index: 5;
+}
+.order {
+	position: absolute;
+	top: 215px;
+	left: 165px;
+}
+.xiesofa04 {
+	position:absolute;
+	top: 361px;
+	left: 136px;
+	display: none;
+	z-index: 4;
+}
+.mousebox {
+	height: 100%;
+	/*border: 1px solid red;*/
+	position: relative;
+	top: -450px;
+	left: 100px;
+	overflow: hidden;
+}
+.mouse1,.mouse2{
+	position: absolute;
+	bottom:222px;
+	left: 900px;
+}
+.mouse2 {
+	display: none;
+}
+.hand1 {
+	position: absolute;
+	bottom: -376px;
+	left: 875px;
+}
+/*第五屏end*/
+
+/*第六屏start*/
+.section6 {
+	background: #85d9ed;
+}
+.bigbox {
+	width: 1600px;
+	height: 900px;
+	position: relative;
+	top:163px;
+	left: 0;
+}
+.boxx {
+	position: absolute;
+	top: 100px;
+	left: 370px;
+	z-index: 5;
+}
+.cloud3 {
+	position: absolute;
+	top: 89px;
+	left: 0px;
+	float: left;
+	animation: run 10s infinite;
+}
+@keyframes run{
+	50%{left:200px}
+	100%{left: 0px;}
+}
+.kdcar {
+	position: absolute;
+	top:645px;
+	left: 700px;
+	z-index: 6;
+}
+.zunyi {
+	position: absolute;
+	top: 597px;
+	left: 837px;
+}
+.biaozhi {
+	position: absolute;
+	top: 305px;
+	left: 697px;
+}
+.women {
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	top: 606px;
+	left: 1346px;	
+	z-index: 1;
+}
+.man {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 695px;
+	left: 839px;
+}
+.door {
+	position: absolute;
+	top: 497px;
+	left: 1263px;
+	display: none;
+}
+.qsh {
+	position: absolute;
+	top: 204px;
+	left: 1122px;
+	display: none;
+}
+/*第六屏end*/
+/*第七屏start*/
+.section7 {
+	background: url(../images/t1wf1tfctaxxa3gmkg-2000-1500.png) no-repeat center bottom;
+}
+.starbox {
+	width:0px;
+	height: 20px;
+	position: absolute;
+	top: 301px;
+	left: 500px;
+	overflow: hidden;
+}
+.hp {
+	position: absolute;
+	top: 350px;
+	left: 520px;
+	display: none;
+}
+/*第七屏end*/
+/*第八屏start*/
+.section8 {
+	background: url(../images/ksgw.png);
+}
+.ksgw1,.ksgw2 {
+	position: absolute;
+	top: 303px;
+	left: 600px;
+}
+.ksgw2 {
+	display: none;
+}
+.zlyc {
+	position: absolute;
+	top: 371x;
+	left: 1026px;
+}
+.hand2 {
+	position: absolute;
+	top:330px;
+	left: 870px;
+}
+/*第八屏end*/
